@@ -45,6 +45,14 @@ public class LogContent implements Serializable {
 		return mKey;
 	}
 
+	@Override
+	public String toString() {
+		return "LogContent{" +
+				"mKey='" + mKey + '\'' +
+				", mValue='" + mValue + '\'' +
+				'}';
+	}
+
 	/**
 	 * Get log content value
 	 * 

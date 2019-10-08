@@ -1,0 +1,21 @@
+package test;
+
+
+import coinLogUtil.LogUtils;
+import com.aliyun.openservices.log.util.Args;
+import jdk.nashorn.internal.runtime.regexp.joni.constants.Arguments;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.http.annotation.ThreadSafe;
+
+@ThreadSafe
+public class LogTest {
+
+//    private static Log log = LogFactory.getLog(LogTest.class);
+//    private final Log log = LogFactory.getLog(getClass());
+    public static void main(String[] args) {
+
+
+    }
+
+}

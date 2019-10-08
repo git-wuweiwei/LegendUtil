@@ -21,6 +21,14 @@ public class LogItem implements Serializable {
 	public int mLogTime;
 	public ArrayList<LogContent> mContents = new ArrayList<LogContent>();
 
+	@Override
+	public String toString() {
+		return "LogItem{" +
+				"mLogTime=" + mLogTime +
+				", mContents=" + mContents +
+				'}';
+	}
+
 	/**
 	 * Construct a logItem, the log time is set according to the sys time
 	 */
